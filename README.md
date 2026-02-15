@@ -22,9 +22,14 @@ This project is an attempt to help doctors save time on administration coding th
 
 * **Dataset:** QUAERO French Medical Corpus (Gold Standard)
 
-Libraries: transformers, spacy, pandas, seqeval (for clinical metrics)
+* **Libraries:** transformers, spacy, pandas, seqeval (for clinical metrics)
 
 ### Key Features
+- **Clinical NER:** Extraction of 8 medical entity types **(Maladies, Procédures, Anatomie, etc.)**.
+- **DrBERT Fine-Tuning:** Leveraging 7GB of French biomedical pre-training for high-precision extraction.
+- **RGPD Compliance:** Automated masking of personal details for safe medical data handling.
+- **Interoperability:** Preparation for mapping extracted terms to **UMLS** and **CIM-10** codes.
+- **Streamlit UI:** An interactive dashboard for real-time entity visualization.
 
 ### Performance
 
