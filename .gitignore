@@ -1,1 +1,5 @@
 nlpdata.ipynb
+.venv
+drbert-clinical-ner-final
+final_french_ner_model
+phase1.ipynb
