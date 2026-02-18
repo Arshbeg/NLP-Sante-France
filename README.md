@@ -22,7 +22,7 @@ This project is an attempt to help doctors save time on administration coding th
 
 * **Dataset:** QUAERO French Medical Corpus (Gold Standard)
 
-* **Libraries:** transformers, spacy, pandas, seqeval (for clinical metrics)
+* **Libraries:** `transformers`, `spacy`, `pandas`, `seqeval`
 
 ### Key Features
 - **Clinical NER:** Extraction of 8 medical entity types **(Maladies, Procédures, Anatomie, etc.)**.
@@ -51,12 +51,13 @@ The system features an interactive **Streamlit** dashboard. Users can input raw 
 Clone the repository and install the dependencies listed in the `requirements.txt` file:
 
 ```bash
-git clone [https://github.com/Arshbeg/NLP-Sante-France.git](https://github.com/Arshbeg/NLP-Sante-France.git)
+git clone https://github.com/Arshbeg/NLP-Sante-France.git
 cd Clinical-Insight-Pipeline
 pip install -r requirements.txt
 ```
 Open and run all cells in clinical_**ner_pipeline.ipynb.**
 The trained model will be saved automatically to the **./final_french_ner_model directory.**
-Once the model is saved, run the Streamlit interface to test the pipeline with your own medical text: **streamlit run app.py**
+Once the model is saved, run the Streamlit interface to test the pipeline with your own medical text. 
+`streamlit run app.py`
 
 ---
